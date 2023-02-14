@@ -35,4 +35,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/BuildFeb142023'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
