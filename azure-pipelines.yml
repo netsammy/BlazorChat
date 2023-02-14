@@ -36,7 +36,7 @@ steps:
   inputs:
     command: 'build'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
-    arguments: 
+
 
 - task: ArchiveFiles@2
       inputs:
